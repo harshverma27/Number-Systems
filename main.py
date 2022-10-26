@@ -65,10 +65,10 @@ print("Which Data Type are you going to enter: ")
 print("1 For Integer")
 print("2 For Binary")
 print("3 For Octal")
-print("4 For HexaDecimal")
+print("4 For HexaDecimal.")
 
 # Ask for choices.
-choice = int(input("Enter Choice: "))
+choice = int(input("Enter Choice:: "))
 
 # Work on choice:
 if choice == 1:
