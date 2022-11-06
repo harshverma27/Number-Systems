@@ -6,7 +6,7 @@ from bintoint import *
 from octtoint import *
 from hextoint import * 
 
-# Creating a class 'Number'/
+# Creating a class 'Number'
 class number:
 
     # The class will have 4 basic parameters int,bin,oct and hexadecimal
@@ -84,7 +84,9 @@ elif choice == 4:
     sample.getNum_hex()
 
 else:
-    print("Invalid Choice")
+    print("Invalid Choice.")
 
 # Print Details
 sample.printDetails()
+
+#Created by Harsh Verma (github.com/harshverma27)

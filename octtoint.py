@@ -21,5 +21,5 @@ def octtoint(n: float):
 
     #Finally we will return the sum of both the answers
     return intans + floatans
-
+#Created by Harsh Verma (github.com/harshverma27)
 
