@@ -5,6 +5,7 @@ from inttohex import *
 from bintoint import *
 from octtoint import *
 from hextoint import * 
+from colorama import * 
 
 # Creating a class 'Number'
 class number:
@@ -61,6 +62,10 @@ class number:
 sample = number()
 
 # Give Choices to user.
+print(Fore.CYAN,Style.BRIGHT)
+print("::::NUMBER SYSTEM CONVERSIONS::::")
+print(Fore.RESET,Style.NORMAL)
+
 print("Which Data Type are you going to enter: ")
 print("1 For Integer")
 print("2 For Binary")
