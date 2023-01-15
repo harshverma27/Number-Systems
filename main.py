@@ -71,27 +71,38 @@ print("1 For Integer")
 print("2 For Binary")
 print("3 For Octal")
 print("4 For HexaDecimal.")
+print("5 To Exit.")
 
-# Ask for choices.
-choice = int(input("Enter Choice:: "))
 
-# Work on choice:
-if choice == 1:
-    sample.getNum_int()
+while True:
 
-elif choice == 2:
-    sample.getNum_bin()
+    try:
+        # Ask for choices.
+        choice = int(input("Enter Choice:: "))
+    except ValueError:
+        print("Please Enter Integer Only.")
+        continue
 
-elif choice == 3:
-    sample.getNum_octal()
+    # Work on choice:
+    if choice == 1:
+        sample.getNum_int()
 
-elif choice == 4:
-    sample.getNum_hex()
+    elif choice == 2:
+        sample.getNum_bin()
 
-else:
-    print("Invalid Choice.")
+    elif choice == 3:
+        sample.getNum_octal()
 
-# Print Details
-sample.printDetails()
+    elif choice == 4:
+        sample.getNum_hex()
 
-#Created by Harsh Verma (github.com/harshverma27)
+    elif choice == 5:
+        break;
+
+    else:
+        print("Invalid Choice.")
+
+    # Print Details
+    sample.printDetails()
+    break
+    #Created by Harsh Verma (github.com/harshverma27)
